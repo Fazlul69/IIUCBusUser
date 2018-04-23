@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IIUC Bus User</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_user_map">UserMap</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="i_i_u_c_bus_tracking">I I U C Bus Tracking</string>
+    <string name="go_to_map">Go To Map</string>
+    <string name="male">Male</string>
+    <string name="teacher">Teacher</string>
+    <string name="forgot_password">FORGOT PASSWORD ?</string>
+</resources>

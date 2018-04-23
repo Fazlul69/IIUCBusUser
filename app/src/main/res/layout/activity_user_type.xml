@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fazlulhoque.iiucbususer.UserType">
+
+    <RadioGroup
+        android:layout_width="255dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/genderGrp"
+        tools:ignore="RtlHardcoded">
+
+        <RadioButton
+            android:id="@+id/maleRadio"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/male"
+            android:textSize="25dp"
+            tools:ignore="SpUsage" />
+        <RadioButton
+            android:id="@+id/femaleRadio"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Female"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/teacherRadio"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/teacher"
+            android:textColorLink="#1e1d1d"
+            android:textSize="25dp"
+            tools:ignore="SpUsage" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnGoTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_map"
+        android:layout_below="@+id/genderGrp"
+        android:layout_alignStart="@+id/genderGrp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"/>
+
+</RelativeLayout>

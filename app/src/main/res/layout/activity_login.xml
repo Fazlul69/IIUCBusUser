@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    android:background="@drawable/homepic"
+    tools:context="com.example.fazlulhoque.iiucbususer.Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i_i_u_c_bus_tracking"
+        android:layout_marginTop="30dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#FF030303"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/hadding"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btnStudentLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:ignore="HardcodedText"
+        android:background="@drawable/btn_driveruser"
+        android:textColor="#ffffff"
+        android:layout_marginStart="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="130dp"/>
+
+    <Button
+        android:id="@+id/btnStudentRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_driveruser"
+        android:textColor="#ffffff"
+        android:text="Register"
+        tools:ignore="HardcodedText"
+        android:layout_marginEnd="57dp"
+        android:layout_alignBaseline="@+id/btnStudentLogin"
+        android:layout_alignBottom="@+id/btnStudentLogin"
+        android:layout_alignParentEnd="true"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtForgotPassword"
+        android:text="@string/forgot_password"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/forall"
+        tools:ignore="RelativeOverlap" />
+
+   <!-- <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_appDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_marginBottom="250dp"
+        android:layout_marginRight="16dp"
+        android:elevation="6dp"
+        android:src="@drawable/ad"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_marginBottom="150dp"
+        android:layout_marginRight="16dp"
+        android:elevation="6dp"
+        android:src="@drawable/d"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/plus"
+        app:backgroundTint="#ffffff"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        />-->
+
+</RelativeLayout>
